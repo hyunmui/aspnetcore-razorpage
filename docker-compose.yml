@@ -1,0 +1,10 @@
+version: "3.1"
+
+services:
+  mssql-movie:
+    ports:
+      - "14333:1433"
+    image: microsoft/mssql-server-linux:latest
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=1q2w3e!@
