@@ -1,5 +1,5 @@
-create database MovieDB;
+create database MovieDB_Test;
 go;
 
-use MovieDB;
+use MovieDB_Test;
 go;
