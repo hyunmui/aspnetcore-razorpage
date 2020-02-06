@@ -42,6 +42,9 @@
                 @Html.DisplayNameFor(model => model.Movie[0].Price)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Movie[0].Rating)
+            </th>
+            <th>
                 Commands
             </th>
         </tr>
@@ -60,6 +63,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rating)
             </td>
             <td>
                 <a class="btn btn-primary" asp-page="./Edit" asp-route-id="@item.ID">Edit</a>

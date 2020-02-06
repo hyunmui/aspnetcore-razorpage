@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [{
+        "database": "Movie_Test",
+        "dialect": "MSSQL",
+        "name": "Movie database",
+        "password": "1q2w3e!@",
+        "port": 14333,
+        "server": "localhost",
+        "username": "sa",
+        "askForPassword": false
+    }]
+}
